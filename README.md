@@ -13,13 +13,13 @@ Latest current progress video on Youtube:
 
 You can download the ROM here if you own a copy of Portal for PC
 
-[Rom Patcher](https://lambertjamesd.github.io/RomPatcher.js/index.html)
+[Rom Patcher](https://theGoodwins.github.io/RomPatcher.js/index.html)
 
 ## Overview
 
 This project aims to reproduce Valve's original Portal, playable on the N64. 
 
-[Releases](https://github.com/lambertjamesd/portal64/releases) of this game are released in the form of a .bps patch, and produce a fully playable N64 ROM that can either be played through an emulator or on a physical N64 game cartridge. 
+[Releases](https://github.com/theGoodwins/portal64/releases) of this game are released in the form of a .bps patch, and produce a fully playable N64 ROM that can either be played through an emulator or on a physical N64 game cartridge. 
 
 Please follow specific release instructions to get the ROM running on your target hardware.
 
@@ -46,7 +46,7 @@ Clone the Portal64 repo or download the zip.
 
 ```sh
 sudo apt install git -y
-git clone https://github.com/lambertjamesd/portal64.git
+git clone https://github.com/theGoodwins/portal64.git
 cd portal64
 ```
 
@@ -88,6 +88,7 @@ make clean
 <br />
 
 ## Current New Feature TODO List
+- [ ] convert project to use libdragon/libultra SDK
 - [ ] check if display list is long enough 
 - [ ] pausing while glados is speaking can end her speech early
 - [x] test chamber 10 without jumping
